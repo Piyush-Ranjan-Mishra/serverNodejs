@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.11.1",
+    "npm": "6.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.9",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "neural-chatbot": "^2.0.18",
+    "cookie-session": "^1.4.0",
+    "express-session": "^1.17.1",
+    "firebase-admin": "^9.2.0",
+    "geo-hash": "0.0.2",
+    "hashmap": "2.3.0",
+    "http": "0.0.1-security",
+    "jssha": "2.3.1",
+    "node-jsencrypt": "^1.0.0",
+    "nodemailer": "^6.4.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "socket.io": "^2.3.0",
+    "translate-json-object": "^2.3.6"
+  }
+}
