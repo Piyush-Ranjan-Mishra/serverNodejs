@@ -3,26 +3,23 @@ const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
 const cors = require('cors');
-var firebase = require("firebase-admin");
+const firebase = require("firebase-admin");
 const nodemailer = require('nodemailer');
-var request = require("request");
-var serviceAccount = require("./service.json");
-var config = require("./config.json");
+const request = require("request");
 const apps = express();
-var session = require('cookie-session');
-var cookieParser = require('cookie-parser');
+const session = require('cookie-session');
+const cookieParser = require('cookie-parser');
 const server = require('http').createServer(apps);
 const io = require('socket.io')(server);
-var HashMap = require('hashmap');
-var jsSHA = require("jssha");
-var TJO = require('translate-json-object')(); // to tr9
-var bodyParser = require('body-parser');
+const HashMap = require('hashmap');
+const jsSHA = require("jssha");
+const TJO = require('translate-json-object')(); // to tr9
+const bodyParser = require('body-parser');
 const fs = require('fs'); /// to read file
 const JSEncrypt = require('node-jsencrypt'); //https://travistidwell.com/jsencrypt/#
-var cors = require('cors');
-let { BasicBot } = require('neural-chatbot');
+const { BasicBot } = require('neural-chatbot');
 // create a phrase database for response
-let { UserData } = require('neural-phrasex');
+const { UserData } = require('neural-phrasex');
 
 // allow cross-origin requests
 // initialization express
@@ -65,7 +62,7 @@ let conf = {
     },
 }
 let bot = new BasicBot()
-await bot.initialize(conf)
+ bot.initialize(conf)
 
 // connect to mlab database
 // make sure to replace my db string & creds with your own
@@ -90,7 +87,7 @@ apps.get('/', (req, res) => {
     return res.end();
 });
 
-apps.get('/bot', (req, res)=>{
+apps.get('/bot',async (req, res)=>{
     let ans = await bot.getResult(phrase, req.data);
     console.log('ans', ans);
 });

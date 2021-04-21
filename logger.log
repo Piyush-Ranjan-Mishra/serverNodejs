@@ -1,0 +1,2116 @@
+[31merror[39m: [CreateMappingConfig] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m115355648[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m43566144[39m,
+      external: [33m20282462[39m,
+      arrayBuffers: [33m19341337[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.28[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m43782120[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m43874904[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m43966792[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [PhrasexBot] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44058688[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [Phrasex] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44150688[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [GenerateObject] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44242624[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.3[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [PhraseDatabase] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44334584[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [Formatting] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44427824[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [BasicAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44519808[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [BasicAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44611904[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [NoSearchAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44704008[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [NoInfoAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44796024[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [HelpAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44888504[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [BasicAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m44980768[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [IdentityAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45072856[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [InfoAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45164960[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [HelpAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45257048[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [NoSearchAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45349200[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [HelpAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45441296[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [HelpAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45533384[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [WhatDidISayAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45625472[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}
+[31merror[39m: [NoSearchAction] uncaughtException: serviceAccount is not defined 
+{
+  date: [32m'Wed Apr 21 2021 22:11:01 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m5586[39m,
+    uid: [33m1000[39m,
+    gid: [33m1000[39m,
+    cwd: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs'[39m,
+    execPath: [32m'/usr/bin/node'[39m,
+    version: [32m'v15.11.0'[39m,
+    argv: [
+      [32m'/usr/bin/node'[39m,
+      [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m116183040[39m,
+      heapTotal: [33m73244672[39m,
+      heapUsed: [33m45717608[39m,
+      external: [33m20282526[39m,
+      arrayBuffers: [33m19341361[39m
+    }
+  },
+  os: { loadavg: [ [33m0.87[39m, [33m0.73[39m, [33m0.41[39m ], uptime: [33m490.31[39m },
+  trace: [
+    {
+      column: [33m39[39m,
+      file: [32m'/home/snty/Documents/assessment/readinglist/serverNodejs/app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m40[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1092[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1121[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m972[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m813[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/run_main'[39m,
+      function: [32m'Function.executeUserEntryPoint [as runMain]'[39m,
+      line: [33m76[39m,
+      method: [32m'executeUserEntryPoint [as runMain]'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'node:internal/main/run_main_module'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: serviceAccount is not defined'[39m,
+    [32m'    at Object.<anonymous> (/home/snty/Documents/assessment/readinglist/serverNodejs/app.js:40:39)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1092:14)'[39m,
+    [32m'    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:972:32)'[39m,
+    [32m'    at Function.Module._load (node:internal/modules/cjs/loader:813:14)'[39m,
+    [32m'    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)'[39m,
+    [32m'    at node:internal/main/run_main_module:17:47'[39m
+  ]
+}

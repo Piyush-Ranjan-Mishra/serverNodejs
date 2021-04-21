@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.11.1",
+    "node": "15.11.0",
     "npm": "6.11.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
